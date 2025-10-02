@@ -124,6 +124,16 @@
             </div>
 
             <div class="mb-3">
+                <label for="genero" class="form-label">Género</label>
+                <select class="form-select" id="genero" name="genero" required>
+                <option value="">Selecciona tu género</option>
+                <option value="mujer">Mujer</option>
+                <option value="hombre">Hombre</option>
+                <option value="personalizado">Personalizado</option>
+            </select>
+            </div>
+
+            <div class="mb-3">
                 <label for="email" class="form-label">Correo Electrónico</label>
                 <input type="email" class="form-control" id="email" placeholder="Numero de celular o correo electrónico" required>
             </div>
@@ -132,18 +142,22 @@
                 <label for="contrasena" class="form-label">Contraseña</label>
                 <input type="password" class="form-control" id="contrasena" placeholder="Contraseña nueva" required>
             </div>
-
             <button type="submit" class="btn btn-facebook w-100 mb-3">Crear Cuenta</button>
             <p class="text-center">¿Ya tienes cuenta? <a href="#">Iniciar sesión</a></p>
-        
-            <footer class="footer-container text-center py-3">
-        <p>Es posible que las personas que usan nuestro servicio hayan subido tu información de contacto a Facebook. <a href="#">Más información</a>.</p>
-        <p>Al hacer clic en "Registrarte", aceptas nuestras <a href="#">Condiciones</a>, la <a href="#">Política de privacidad</a> y la <a href="#">Política de cookies</a>.</p>
-        <p>Es posible que te enviemos notificaciones por SMS, que puedes desactivar cuando quieras.</p>
-        </footer>
-        </form>
-    </div>
 
+            <footer class="footer-container text-center py-3">
+                <p>Es posible que las personas que usan nuestro servicio hayan subido tu información de contacto a Facebook. 
+                <a href="https://www.facebook.com/help/637205020878504" target="_blank">Más información</a>.
+            </p>
+                <p>Al hacer clic en "Registrarte", aceptas nuestras 
+                <a href="https://www.facebook.com/legal/terms/update" target="_blank">Condiciones</a>, 
+                la <a href="https://www.facebook.com/privacy/policy/" target="_blank">Política de privacidad</a> 
+                y la <a href="https://www.facebook.com/policies/cookies/" target="_blank">Política de cookies</a>.
+                </p>
+                <p>Es posible que te enviemos notificaciones por SMS, que puedes desactivar cuando quieras.</p>
+            </footer>
+            </form>
+        </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
-</html>
+</html>            
