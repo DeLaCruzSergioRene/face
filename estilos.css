@@ -1,0 +1,36 @@
+body {
+    background-color: #f0f2f5;
+}
+
+/* Contenedor principal */
+.container {
+    max-width: 400px;
+    margin-top: 50px;
+}
+
+/* Botón de "Crear cuenta" */
+.btn-facebook {
+    background-color: #1877f2;
+    color: white;
+    border: none;
+}
+
+.btn-facebook:hover {
+    background-color: #165eab;
+}
+
+/* Estilo del texto del footer */
+.text-center {
+    font-size: 14px;
+}
+
+h2 {
+    font-size: 8.5rem;  
+    color:#165eab
+}
+
+.footer-container {
+    background-color: white; 
+    border-top: 1px solid #ccc; 
+    margin-top: 50px; 
+}
