@@ -11,20 +11,23 @@
 <body>
     <h1 class="text-center mb-8">Facebook</h1>
     <div class="container">
-        <h2 class="text-center mb-4">Crea una cuenta: Es fácil y rápido.</h2> 
+        <h2 class="text-center mb-4">Crea una cuenta: Es rápido y fácil.</h2> 
         <form>
-            <div class="mb-3">
-                <label for="nombre" class="form-label">Nombre</label>
+            <div class="row">
+                <div class="col-md-6 mb-3">
+                <label for="nombre" class="form-label">Nombre:</label>
                 <input type="text" class="form-control" id="nombre" placeholder="Nombre" required>
             </div>
 
-            <div class="mb-3">
-                <label for="apellido" class="form-label">Apellido</label>
+            <div class="col-md-6 mb-3">
+                <label for="apellido" class="form-label">Apellido:</label>
                 <input type="text" class="form-control" id="apellido" placeholder="Apellido" required>
             </div>
+            </div>
+
 
             <div class="mb-3">
-                <label for="fecha_nacimiento" class="form-label">Fecha de Nacimiento</label>
+                <label for="fecha_nacimiento" class="form-label">Fecha de Nacimiento:</label>
                 <div class="row">
                     <div class="col-md-4">
                         <select class="form-select" id="dia" required>
@@ -135,7 +138,7 @@
             </div>
 
             <div class="mb-3">
-                <label for="genero" class="form-label">Género</label>
+                <label for="genero" class="form-label">Género:</label>
                 <select class="form-select" id="genero" name="genero" required>
                 <option value="">Selecciona tu género</option>
                 <option value="mujer">Mujer</option>
@@ -145,16 +148,16 @@
             </div>
 
             <div class="mb-3">
-                <label for="email" class="form-label">Correo Electrónico</label>
+                <label for="email" class="form-label">Correo Electrónico:</label>
                 <input type="email" class="form-control" id="email" placeholder="Numero de celular o correo electrónico" required>
             </div>
 
             <div class="mb-3">
-                <label for="contrasena" class="form-label">Contraseña</label>
+                <label for="contrasena" class="form-label">Contraseña:</label>
                 <input type="password" class="form-control" id="contrasena" placeholder="Contraseña nueva" required>
             </div>
-            <button type="submit" class="btn btn-facebook w-100 mb-3">Crear Cuenta</button>
-            <p class="text-center">¿Ya tienes cuenta? <a href="#">Iniciar sesión</a></p>
+            <button type="submit" class="btn btn-facebook w-100 mb-3">Registrarte</button>
+            <p class="text-center"><a href="#">¿Ya tienes una cuenta?</a></p>
 
             <footer class="footer-container text-center py-3">
                 <p>Es posible que las personas que usan nuestro servicio hayan subido tu información de contacto a Facebook. 
@@ -169,6 +172,7 @@
             </footer>
             </form>
         </div>
+        <footer class="footer-container text-center py-2">Sergio René De La Cruz Rodríguez. 5.D</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 </html>            
